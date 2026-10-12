@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="h-screen flex justify-center items-center p-6">
+    <div className="h-screen flex justify-center items-center px-6 py-10">
       <div className="text-center">
         <Image
           className="rounded-2xl mx-auto"
