@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="h-screen flex justify-center items-center p-6">
       <div className="text-center">
         <Image
           className="rounded-2xl mx-auto"
@@ -15,14 +15,14 @@ export default function Home() {
         <h2 className="opacity-70 font-extrabold mb-3 mt-6"><span className="text-[#fc8b7a]">Cheraphs</span> Farms</h2>
         <p className="mb-10 opacity-70">Engaged in general agricultural business.</p>
 
-        <div className="flex gap-3 flex-wrap  justify-center p-6">
-          <div className="basis-[40%]  sm:flex-2 rounded-2xl bg-[#fc8b7a] p-3 items-center flex">
+        <div className="flex gap-3 flex-wrap  justify-center">
+          <div className="flex-[40%] sm:flex-2 rounded-2xl bg-[#fc8b7a] p-3 items-center flex">
             <Image src="/grain.png" alt="Grane" width="200" height="100" className="block" />
           </div>
-          <div className="basis-[40%] flex-4 bg-[#c05749] rounded-2xl p-3">
+          <div className="flex-[40%] sm:flex-4 bg-[#c05749] rounded-2xl p-3">
             <Image src="/cow.png" alt="" width="250" height="209" />
           </div>
-          <div className="py-20 basis-full flex-6 rounded-2xl"
+          <div className="py-20 flex-[80%] sm:flex-6 rounded-2xl"
           
           style={{
             backgroundImage: `url("/maize.png")`, 
